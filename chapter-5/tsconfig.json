@@ -9,6 +9,7 @@
     "sourceMap": true,
     "downlevelIteration": true,
     "noImplicitAny": false,
+    "experimentalDecorators": true,
     "paths": {
       "*": [
         "node_modules/*"
