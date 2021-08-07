@@ -1,29 +1,23 @@
 {
 
   "compilerOptions": {
-  "strict": true,
-  "module": "commonjs",
+  "noImplicitReturns": true,
+  "lib": ["es2015"],
   
-  "esModuleInterop": true,
-  
-  "target": "es5",
-  
-  "moduleResolution": "node",
+  "module": "CommonJS",
   
   "outDir": "dist",
   
-  "baseUrl": ".",
-  
   "sourceMap": true,
   
-  "downlevelIteration": true,
+  "strict": true,
   
-  "noImplicitAny": false,
+  "target": "es2015",
   
-  "paths": { "*": ["node_modules/*"] }
+  }, "include": [
   
-  },
+  "src"
   
-  "include": ["src/**/*"]
+  ]
   
   }
