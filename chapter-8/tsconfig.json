@@ -1,0 +1,23 @@
+{
+
+  "compilerOptions": {
+  
+  "lib": ["es2015", "dom", "WebWorker"],
+  
+  "module": "CommonJS",
+  
+  "outDir": "dist",
+  
+  "sourceMap": true,
+  "skipLibCheck": true,
+  "strict": true,
+  
+  "target": "es2015",
+  
+  }, "include": [
+  
+  "src"
+  
+  ]
+  
+  }
